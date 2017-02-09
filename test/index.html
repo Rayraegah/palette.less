@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Testing Palette.less</title>
+    <link rel="stylesheet/less" type="text/css" href="colors.less" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
+  </head>
+
+  <body>
+    <div class="root-container main-color" id="colors"></div>
+    <script type="text/javascript">
+    window.onload = function() {
+      init()
+    }
+
+    function init() {
+      const container = document.querySelector('#colors')
+      const colors = ['blue', 'purple', 'cyan', 'green', 'pink', 'red', 'orange', 'yellow']
+      colors.forEach(function(color) {
+        for (var node, i = 1; i <= 10; i++) {
+          node = document.createElement('div');
+          node.className = 'color-block palette-' + color + '-' + i;
+          container.appendChild(node)
+        }
+      })
+    }
+
+    </script>
+  </body>
+
+</html>
+

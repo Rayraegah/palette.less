@@ -1,0 +1,25 @@
+{
+  "name": "colourless",
+  "version": "0.0.1",
+  "description": "A color generator module for LESS project that meets WCAG 2.0 4.5:1 minimum contrast (AA level)",
+  "main": "dist/palette.less",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rayraegah/palette.less.git"
+  },
+  "keywords": [
+    "less",
+    "colors",
+    "colours",
+    "module",
+    "WCAG-2.0"
+  ],
+  "author": "Rayraegah",
+  "license": "ISC"
+}
