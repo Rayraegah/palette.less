@@ -1,5 +1,5 @@
 {
-  "name": "colourless",
+  "name": "palette.less",
   "version": "0.0.1",
   "description": "A color generator module for LESS project that meets WCAG 2.0 4.5:1 minimum contrast (AA level)",
   "main": "dist/palette.less",

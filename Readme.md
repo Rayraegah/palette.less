@@ -1,6 +1,4 @@
-# Colourless
-
-## About
+# Palette.less
 A visual hierarchy colour generator for establishing visual continuity in design. The colors generated meets WCAG 2.0 standards to ensure adequate contrast.
 
 
